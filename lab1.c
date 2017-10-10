@@ -8,4 +8,13 @@
 void main (void)
 {
 /* Insert code from pre-lab Q14 to change values on PORTB */
+    int count;
+    
+    TRISB = 0;
+    PORTB = 0;
+    
+    for(count = 1; count < 16; count++){
+        PORTB = count;
+    }
+    
 }
