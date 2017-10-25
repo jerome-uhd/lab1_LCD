@@ -15,7 +15,7 @@ void main (void){
     
     for(count = 1; count < 16; count++){
         PORTB = count;
-        //Delay1KTCYx(8000);
+        Delay1KTCYx(150000);
     }
     
 }
